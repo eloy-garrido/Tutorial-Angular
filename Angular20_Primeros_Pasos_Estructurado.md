@@ -508,7 +508,7 @@ Edita `src/app/app.html`:
     
     <div class="componentes-grid">
       <!-- Componente 1: Contador Básico -->
-      <app-contador 
+      <app-contador>
         titulo="Contador Básico"
         [valorInicial]="0"
         [maximo]="5"
@@ -516,7 +516,7 @@ Edita `src/app/app.html`:
       </app-contador>
       
       <!-- Componente 2: Contador Avanzado -->
-      <app-contador 
+      <app-contador>
         titulo="Contador Avanzado"
         [valorInicial]="3"
         [maximo]="15"
