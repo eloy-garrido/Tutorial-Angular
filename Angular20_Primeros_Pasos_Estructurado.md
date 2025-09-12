@@ -68,7 +68,7 @@ ng version
 
 ```bash
 # Crear proyecto básico sin routing
-ng new mi-primera-app --routing=false --style=css --ssr=true
+ng new mi-primera-app
 
 # Navegar al directorio
 cd mi-primera-app
